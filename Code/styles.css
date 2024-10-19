@@ -1,0 +1,84 @@
+body {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+.grid-container {
+  display: inline-grid;
+  column-gap: 15vw;
+  row-gap: 15vh;
+  margin-top: 8vh;
+  grid-template-columns: 10vw 10vw 10vw 10vw;
+  font-family: Quicksand;
+  font-weight: 800;
+  text-align: center;
+  margin-left: 5vw;
+}
+.grid-item {
+  margin: 5vw;
+}
+#Logo {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-left: 6vw;
+  margin-top: -8.5vh;
+  margin-bottom: -4vh;
+}
+#search {
+  display: flex;
+  justify-content: right;
+  width: 3vw;
+  height: 3vh;
+  float: right;
+  margin-right: 1vw;
+  margin-top: -3vh;
+}
+
+h1 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Rock Salt";
+}
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.nav {
+  background-color: black;
+  overflow: hidden;
+  font-family: Quicksand;
+  height: 5vh;
+}
+
+.nav a {
+  display: flex;
+  justify-content: center;
+  color: #f2f2f2;
+  display: inline-block;
+  padding: 14px 16px;
+
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.nav a.active {
+  background-color: #ffffff;
+  color: black;
+}
+.grid-item:hover {
+  background-color: rgba(140, 140, 140, 0.462);
+}
